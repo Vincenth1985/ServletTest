@@ -21,7 +21,7 @@ public class GetServlet extends HttpServlet {
         String name = req.getParameter("Name");
 
         //Request Dispatcher
-        RequestDispatcher rd = req.getRequestDispatcher("/postservlet");
+        RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/pages/postservlet.jsp");
         rd.forward(req, resp);
 
 

@@ -8,15 +8,4 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 
     
 
-<servlet>
-    <servlet-name>getpost</servlet-name>
-    <servlet-class>/postservlet</servlet-class>
-    
-</servlet>
-    
-    
-    <servlet-mapping>
-        <servlet-name>getpost</servlet-name>
-        <url-pattern>/postservlet</url-pattern>
-    </servlet-mapping>
 </web-app>
