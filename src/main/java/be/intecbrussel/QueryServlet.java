@@ -17,7 +17,6 @@ public class QueryServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-
         PrintWriter out = resp.getWriter();
         resp.setContentType("text/plain");
 
@@ -30,8 +29,6 @@ public class QueryServlet extends HttpServlet {
 
             out.write(paramValue);
         }
-
-
         out.close();
     }
 }
