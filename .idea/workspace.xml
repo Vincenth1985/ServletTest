@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2cfc11-3e07-4acb-ba50-1b9473a282f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/GetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/GetServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/PostServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/PostServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/postservlet.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletTest.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletTest.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletTest/WEB-INF/classes/be/intecbrussel/GetServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletTest/WEB-INF/classes/be/intecbrussel/GetServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletTest/WEB-INF/classes/be/intecbrussel/PostServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletTest/WEB-INF/classes/be/intecbrussel/PostServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletTest/WEB-INF/pages/postservlet.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletTest/WEB-INF/pages/postservlet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletTest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/GetServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/GetServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/PostServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/PostServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-    </list>
+    <list default="true" id="1a2cfc11-3e07-4acb-ba50-1b9473a282f1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -65,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/intecbrussel/PostServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
@@ -197,7 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575284306162" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575285205905" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
   </component>
   <component name="RecentsManager">
@@ -290,20 +276,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/intecbrussel/PostServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -317,17 +307,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/intecbrussel/PostServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="384">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -16,14 +16,7 @@ public class GetServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-
-        String name = req.getParameter("Name");
-
-
         RequestDispatcher rd = req.getRequestDispatcher("/postservlet");
         rd.forward(req, resp);
-
-
     }
 }
