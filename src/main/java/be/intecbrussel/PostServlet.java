@@ -19,11 +19,14 @@ public class PostServlet extends HttpServlet {
 
 
         PrintWriter out = resp.getWriter();
-        resp.setContentType("text/html");
+
+        out.println("hello to square");
 
 
 
-        out.println("Hellooooooooo");
+
+
+
 
 
 

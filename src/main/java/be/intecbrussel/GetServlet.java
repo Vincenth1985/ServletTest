@@ -18,11 +18,15 @@ public class GetServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 
+        String name = req.getParameter("Name");
 
-
+        //Request Dispatcher
         RequestDispatcher rd = req.getRequestDispatcher("/postservlet");
-
         rd.forward(req, resp);
+
+
+
+
 
 
 
