@@ -10,25 +10,54 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 
-@WebServlet("/postservlet")
+@WebServlet(value = "/postservlet")
 public class PostServlet extends HttpServlet {
+
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        doPost(req, resp);
+
+
+    }
 
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-
-        PrintWriter out = resp.getWriter();
-
-        out.println("hello to square");
-
-
+        String name = req.getParameter("Name");
+        PrintWriter writer = resp.getWriter();
+        resp.setContentType("text/html");
+        resp.setCharacterEncoding("UTF-8");
 
 
+        writer.println("<html>");
+        writer.println("<head>");
 
 
+        if (name.isEmpty()) {
+            writer.println("<H2>Hello Guest</H2>");
+            writer.println(("You reached the POST Servlet"));
 
+        } else {
 
+            writer.println("<H2>Hello " + name + "</H2><br>");
+
+            writer.println(("<H2>You reached the POST Servlet</H2>"));
+        }
+
+        writer.println("</head>");
+
+        writer.println("<Body>");
+
+        writer.println("<H3><a href=" + req.getContextPath() + ">Back to the GetServlet</a></H3><br>");
+
+        writer.println("<form>");
+        writer.println("<input type=\"button\" value=\"Back to the GET SERVLET\" onclick=\"window.location.href='" + req.getContextPath() + "'\" />");
+
+        writer.println("</form>");
+        writer.println("</Body>");
 
 
     }
