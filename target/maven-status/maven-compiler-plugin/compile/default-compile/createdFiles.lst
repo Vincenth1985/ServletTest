@@ -1,2 +1,3 @@
 be/intecbrussel/PostServlet.class
 be/intecbrussel/GetServlet.class
+be/intecbrussel/QueryServlet.class

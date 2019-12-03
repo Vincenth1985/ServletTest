@@ -16,7 +16,20 @@ public class GetServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher rd = req.getRequestDispatcher("/postservlet");
-        rd.forward(req, resp);
+
+        PrintWriter respWriter = resp.getWriter();
+
+        respWriter.println("<html>");
+        respWriter.println("<head>");
+        respWriter.println("</head>");
+        respWriter.println("<body>");
+        respWriter.println("<h1>Welcome, enter name please.</h1>");
+        respWriter.println("<form method=\"post\"action=\"postservlet\">");
+        respWriter.println("<input type=\"text\" name=\"Name\">");
+        respWriter.println("<input type=\"submit\">");
+        respWriter.println("</form>");
+        respWriter.println("</body>");
+        respWriter.println("</html>");
+
     }
 }

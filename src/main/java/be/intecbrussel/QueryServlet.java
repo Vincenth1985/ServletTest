@@ -26,7 +26,6 @@ public class QueryServlet extends HttpServlet {
         if (paramValue == null) {
             out.write("Hello Pluto");
         } else {
-
             out.write(paramValue);
         }
         out.close();

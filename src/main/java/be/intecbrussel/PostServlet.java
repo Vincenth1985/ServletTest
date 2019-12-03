@@ -15,15 +15,6 @@ public class PostServlet extends HttpServlet {
 
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        doPost(req, resp);
-
-
-    }
-
-
-    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String name = req.getParameter("Name");
@@ -46,9 +37,9 @@ public class PostServlet extends HttpServlet {
 
         writer.println("</head>");
         writer.println("<Body>");
-        writer.println("<H3><a href=" + req.getContextPath() + ">Back to the GetServlet</a></H3><br>");
+        writer.println("<H3><a href=\"getservlet\">Back to the GetServlet</a></H3><br>");
         writer.println("<form>");
-        writer.println("<input type=\"button\" value=\"Back to the GET SERVLET\" onclick=\"window.location.href='" + req.getContextPath() + "'\" />");
+        writer.println("<input type=\"button\" value=\"Back to the GET SERVLET\" onclick=\"location.href='getservlet'\" />");
         writer.println("</form>");
         writer.println("</Body>");
 
